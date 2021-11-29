@@ -19,11 +19,11 @@ body {
   text-decoration: none;
 }
 
-.logo-part-blue {
+.text_color_blue {
   color: var(--accent-color);
 }
 
-/*  HEADER  */
+/*  Header  */
 .mail-link,
 .tel-link {
   color: var(--main-text-color);
@@ -59,9 +59,9 @@ body {
   color: var(--accent-color);
 }
 
-/*  END HEADER  */
+/*  End header  */
 
-/*  FOOTER  */
+/*  Footer  */
 .footer {
   background-color: #2f303a;
 }
@@ -91,11 +91,11 @@ body {
 .e-mail {
   color: rgba(255, 255, 255, 0.6);
 }
-/*  END FOOTER  */
+/*  End footer  */
 
-/*  INDEX HTML  */
+/*  Index HTML  */
 
-/*  HERO  */
+/*  Main objective  */
 
 .hero {
   background-color: #2f303a;
@@ -128,9 +128,9 @@ body {
   cursor: pointer;
 }
 
-/*  END HERO  */
+/*  End Main objective  */
 
-/*  SPECIFICS  */
+/*  Description of values  */
 .specifics-item {
   letter-spacing: 0.03em;
   font-size: 14px;
@@ -147,9 +147,9 @@ body {
 .specifics-item-text {
   line-height: 1.71;
 }
-/*  END SPECIFICS  */
+/*  End Description of values  */
 
-/*  WORK  */
+/*  Specialization  */
 
 .work-title {
   font-weight: 700;
@@ -159,9 +159,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-/*  END WORK  */
+/*  End Specialization  */
 
-/*  TEAM  */
+/*  Our team  */
 .team {
   background-color: #f5f4fa;
 }
@@ -189,11 +189,11 @@ body {
   font-size: 16px;
 }
 
-/*  END TEAM  */
+/*  End Our team  */
 
-/*  END INDEX HTML  */
+/*  End index HTML  */
 
-/*  PORTFOLIO HTML  */
+/*  Portfolio HTML  */
 /*  FILTERS AND CARDS  */
 .filters-list-item-button {
   font-family: Roboto, sans-serif;
@@ -232,5 +232,5 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
-/*  END FILTERS AND CARDS  */
-/*  END PORTFOLIO HTML  */
+/*  End FILTERS AND CARDS  */
+/*  End Portfolio HTML  */
