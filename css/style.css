@@ -5,6 +5,9 @@
   --main-footer-text-color: #ffffff;
   --portfolio-filters-background: #f5f4fa;
   --main-portfolio-background: #ffffff;
+  --main-logo-color: #000000;
+  --footer-background-color: #2f303a;
+  --button-background-color: #188ce8;
 }
 .list {
   list-style: none;
@@ -12,7 +15,10 @@
 
 body {
   font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
   color: var(--main-text-color);
+  background-color: var(--main-portfolio-background);
 }
 
 .link {
@@ -34,8 +40,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--main-logo-color);
 }
 
 .site-nav .menu-link {
@@ -59,11 +64,22 @@ body {
   color: var(--accent-color);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1 px;
+  height: 1 px;
+  margin: -1 px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
 /*  End header  */
 
 /*  Footer  */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--footer-background-color);
 }
 
 .logo-white {
@@ -71,7 +87,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--main-footer-text-color);
 }
 
@@ -79,7 +94,6 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .address-list-link {
@@ -98,8 +112,8 @@ body {
 /*  Main objective  */
 
 .hero {
-  background-color: #2f303a;
-  color: #ffffff;
+  background-color: var(--footer-background-color);
+  color: var(--main-footer-text-color);
 }
 
 .hero-title {
@@ -119,12 +133,12 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--main-footer-text-color);
 }
 
 .hero-button:focus,
 .hero-button:hover {
-  background-color: #188ce8;
+  background-color: var(--button-background-color);
   cursor: pointer;
 }
 
@@ -132,7 +146,6 @@ body {
 
 /*  Description of values  */
 .specifics-item {
-  letter-spacing: 0.03em;
   font-size: 14px;
 }
 
@@ -145,7 +158,7 @@ body {
 }
 
 .specifics-item-text {
-  line-height: 1.71;
+  line-height: 1.7;
 }
 /*  End Description of values  */
 
@@ -156,14 +169,13 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 /*  End Specialization  */
 
 /*  Our team  */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--portfolio-filters-background);
 }
 
 .team-title {
@@ -171,14 +183,12 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
 .team-item {
-  background: #ffffff;
+  background: var(--main-footer-text-color);
   text-align: center;
-  letter-spacing: 0.03em;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -201,7 +211,6 @@ body {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
-  letter-spacing: 0.03em;
   background-color: var(--portfolio-filters-background);
   color: var(--secondary-text-color);
 }
@@ -209,7 +218,7 @@ body {
 .filters-list-item-button:focus,
 .filters-list-item-button:hover {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--main-footer-text-color);
   cursor: pointer;
 }
 
@@ -218,7 +227,6 @@ body {
 }
 
 .cards-list-item-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -229,7 +237,6 @@ body {
 .cards-list-item-type {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 /*  End FILTERS AND CARDS  */
